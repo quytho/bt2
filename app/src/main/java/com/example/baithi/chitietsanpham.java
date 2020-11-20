@@ -20,7 +20,7 @@ public class chitietsanpham extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chitietsp);
-//set dữ liệu cho trang sau click vào 1 item
+        //set dữ liệu cho trang sau click vào 1 item
         idName = findViewById(R.id.idttchinh);
         idGia = (TextView)findViewById(R.id.idgia);
         idImage = (ImageView) findViewById(R.id.imageView);
@@ -35,11 +35,11 @@ public class chitietsanpham extends AppCompatActivity {
         idImage.setImageResource(receivedImage);
         idGia.setText(receivedGia);
         tongtien.setText(receivedTongTien);
-        ImageView close_chitiet = (ImageView) findViewById(R.id.close_chitietsanpham);
-        close_chitiet.setOnClickListener(new View.OnClickListener() {
+        ImageView closechitiet = (ImageView) findViewById(R.id.close_chitietsp);
+        closechitiet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(chitietsanpham.this, Fragement_douong.class);
+                Intent intent = new Intent(chitietsanpham.this, order.class);
                 startActivity(intent);
             }
         });
