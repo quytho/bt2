@@ -112,11 +112,11 @@ public class myaccount extends AppCompatActivity {
         });
         ArrayList<Contact> arrayList = new ArrayList<Contact>();
 
-        Contact contact1 = new Contact(R.drawable.favorite, "The Coffee House Rewards");
+        Contact contact1 = new Contact(R.drawable.best, "The Coffee House Rewards");
         Contact contact2 = new Contact(R.drawable.user, "Thông Tin Tài Khoản");
-        Contact contact3 = new Contact(R.drawable.playlist, "Nhạc đang phát");
+        Contact contact3 = new Contact(R.drawable.music, "Nhạc đang phát");
         Contact contact4 = new Contact(R.drawable.scroll, "Lịch sử");
-        Contact contact5 = new Contact(R.drawable.help, "Giúp đỡ");
+        Contact contact5 = new Contact(R.drawable.question, "Giúp đỡ");
         Contact contact6 = new Contact(R.drawable.setting, "Cài đặt");
 
         arrayList.add(contact1);
