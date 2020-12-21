@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toobar_thanhtoan"
+        layout="@layout/toolbar_thanhtoan"/>
+    <LinearLayout
+        android:id="@+id/xacnhan"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toobar_thanhtoan"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:padding="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1: Xác nhận thông tin giao hàng"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/diachi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableStart="@drawable/location"
+            android:drawableLeft="@drawable/location"
+            android:drawablePadding="6dp"
+            android:ems="10"
+            android:hint="Nhập địa chỉ giao hàng"
+            android:inputType="textEmailAddress|text"
+            android:layout_marginBottom="5dp"
+            android:padding="15dp"></EditText>
+        <EditText
+            android:id="@+id/sdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableStart="@drawable/phone"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="6dp"
+            android:ems="10"
+            android:hint="Số điện thoại"
+            android:inputType="textEmailAddress|text"
+            android:padding="15dp"></EditText>
+        <EditText
+            android:id="@+id/ghichu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:drawableStart="@drawable/note"
+            android:drawableLeft="@drawable/note"
+            android:drawablePadding="6dp"
+            android:ems="10"
+            android:hint="Ghi chú"
+            android:inputType="textEmailAddress|text"
+            android:padding="15dp"></EditText>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xacnhan">
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:padding="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2: Hình Thức Thanh Toán"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"/>
+        <RadioGroup
+            android:id="@+id/rg_radio"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/rd_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:padding="3dp"
+                android:text="Thanh toán khi giao hàng"
+                android:textSize="15sp" />
+            <RadioButton
+                android:id="@+id/rd_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="sans-serif"
+                android:padding="3dp"
+                android:text="Thẻ ATM nội địa"
+                android:textSize="15sp" />
+            <RadioButton
+                android:id="@+id/rd_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:fontFamily="sans-serif"
+                android:padding="3dp"
+                android:text="ZaloPay"
+                android:textSize="15sp" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/bt_hoantatthanhtoan"
+            android:text="Đặt hàng"
+            android:textAllCaps="false"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vienlayout"/>
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

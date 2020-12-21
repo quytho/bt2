@@ -38,12 +38,12 @@ public class Fragment_doan extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         lstDoAn = new ArrayList<>();
-        lstDoAn.add(new DoAn(R.drawable.thucan1, "Bánh Mỳ Chà Bông", "19.000"));
-        lstDoAn.add(new DoAn(R.drawable.thucan2, "Bánh Mỳ Que", "20.000"));
-        lstDoAn.add(new DoAn(R.drawable.thucan3, "Bông Lan Trứng Muối", "18.000"));
-        lstDoAn.add(new DoAn(R.drawable.thucan4, "Cam Tươi Sấy Dẻo", "30.000VND"));
-        lstDoAn.add(new DoAn(R.drawable.thucan5, "Điểu Vàng Mật Ong", "35.000VND"));
-        lstDoAn.add(new DoAn(R.drawable.thucan6, "Mít Xấy", "42.000VND"));
+        lstDoAn.add(new DoAn(R.drawable.thucan1, "Bánh Mỳ Chà Bông", "19000"));
+        lstDoAn.add(new DoAn(R.drawable.thucan2, "Bánh Mỳ Que", "20000"));
+        lstDoAn.add(new DoAn(R.drawable.thucan3, "Bông Lan Trứng Muối", "18000"));
+        lstDoAn.add(new DoAn(R.drawable.thucan4, "Cam Tươi Sấy Dẻo", "30000"));
+        lstDoAn.add(new DoAn(R.drawable.thucan5, "Điểu Vàng Mật Ong", "35000"));
+        lstDoAn.add(new DoAn(R.drawable.thucan6, "Mít Xấy", "42000"));
 
 
     }

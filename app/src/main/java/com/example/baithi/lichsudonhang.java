@@ -3,6 +3,7 @@ package com.example.baithi;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,7 +22,14 @@ public class lichsudonhang extends AppCompatActivity {
             }
         });
 
-
+        Button ordernow = (Button)findViewById(R.id.ls_dathang);
+        ordernow.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(lichsudonhang.this, order.class);
+                startActivity(intent);
+            }
+        });
        
     }
 }

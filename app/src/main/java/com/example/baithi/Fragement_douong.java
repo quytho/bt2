@@ -53,15 +53,15 @@ public class Fragement_douong extends Fragment {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         lstDoUong = new ArrayList<>();
-        lstDoUong.add(new DoUong(R.drawable.thucuong1, "Cafe Sữa Đá", "32.000"));
-        lstDoUong.add(new DoUong(R.drawable.thucuong2, "Bạc Xỉu", "51.000"));
-        lstDoUong.add(new DoUong(R.drawable.thucuong3, "Trà Phúc Bồn Tử", "47.000"));
-        lstDoUong.add(new DoUong(R.drawable.thucuong4, "Latte Đá", "36.000VND"));
-        lstDoUong.add(new DoUong(R.drawable.thucuong6, "Americano Đá", "30.000VND"));
-        lstDoUong.add(new DoUong(R.drawable.thucuong5, "Cappuchino", "52.000VND"));
-        lstDoUong.add(new DoUong(R.drawable.thucuong7, "Latte Nóng", "36.000VND"));
-        lstDoUong.add(new DoUong(R.drawable.thucuong8, "Cafe Sữa Nóng", "30.000VND"));
-        lstDoUong.add(new DoUong(R.drawable.thucuong9, "Cappuchino Nóng", "52.000VND"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong1, "Cafe Sữa Đá", "32000"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong2, "Bạc Xỉu", "51000"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong3, "Trà Phúc Bồn Tử", "47000"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong4, "Latte Đá", "36000"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong6, "Americano Đá", "30000"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong5, "Cappuchino", "52000"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong7, "Latte Nóng", "36000"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong8, "Cafe Sữa Nóng", "30000"));
+        lstDoUong.add(new DoUong(R.drawable.thucuong9, "Cappuchino Nóng", "52000"));
 
 
     }

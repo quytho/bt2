@@ -24,6 +24,7 @@
         <activity android:name=".lichsudonhang" />
         <activity android:name=".thanhvien" />
         <activity android:name=".thongtinthongbao" />
+        <activity android:name=".thanhtoandathang" />
         <activity android:name=".nhacdangphat"/>
         <activity android:name=".quidinh"/>
         <activity android:name=".caidat"/>

@@ -320,6 +320,22 @@
             android:text="32.000 đ"
             android:id="@+id/tongtien"/>
     </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dat"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/bt_dathang"
+            android:text="Đặt hàng"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/vienlayout"/>
+    </LinearLayout>
 
 
 </RelativeLayout>
